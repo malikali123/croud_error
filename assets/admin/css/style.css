@@ -1,0 +1,104 @@
+/*================================================================================
+	Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
+	Version: 1.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,.breadcrumb {
+    font-family: 'Cairo', sans-serif !important;
+    letter-spacing: 0px !important;
+}
+
+.breadcrumb {
+    font-size: 19px !important;
+}
+
+.breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+    content: '/';
+    font-size: 20px;
+    font-weight: 900;
+    color: #fe9149;
+}
+
+form label {
+    color: #212123;
+    /* font-weight: 600; */
+    font-size: 16px;
+}
+
+/* Start Re-style Tables */
+table{
+    margin-top: 1rem;
+}
+
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.action-td div button{
+    margin: 0px;
+    height: 60px !important;
+}
+
+/* End Re-style Tables */
+
+.user-photo{
+    border: 2px dashed #797979;
+    width: 100%;
+    margin: auto;
+    border-radius: 0px;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: -1px 0px 3px -1px #323554;
+    height: auto;
+    cursor: pointer;
+    
+}
+
+
+.user-photo2{
+    border: 2px dashed #797979;
+    width: 100%;
+    margin: auto;
+    border-radius: 0px;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: -1px 0px 3px -1px #323554;
+    height: auto;
+    cursor: pointer;
+    
+}
+
+.content-header{
+    background: #fff;
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: -1px 1px 5px -2px #000;
+}
+
+#type-error{
+    display: none;
+}
+
+.header-navbar .navbar-header .navbar-brand .brand-logo {
+    height: 30px!important;
+    width: auto!important;
+}
+
+.main-menu.menu-light .navigation > li .active > a {
+    color: #82848f !important;
+    font-weight: 700;
+    background: rgba(244, 245, 250 ,0.65)!important;
+}
+
+.card {
+    box-shadow: -1px 1px 5px -1px #222;
+}
